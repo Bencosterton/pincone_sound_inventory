@@ -1,4 +1,4 @@
-#This is a list of all kit held by Pinecone Sound, its quantaty, and location
+#This is a list of all kit held by Pinecone Sound, its quantaty, and location.
 
 kit_list={
 'rode ntg2':'01 in location kit',
@@ -21,7 +21,7 @@ kit_list={
 'rode blimp':'01 in location kit',
 'rycote mini windjammer':'02 in location kit',
 'rycote 65501':'01 in location kit',
-'audio at8533':'03 in location kit',
+'audio technica at8533':'03 in location kit',
 'rode vxlr':'02 in location kit',
 'mini boom mic stand':'01 in location kit',
 'rode boompole': '01 in location kit',
@@ -62,11 +62,11 @@ amplifyers={
 'dare audio v500':'01 in office',
 }
 
-microphone_accessores={
+microphone_accessories={
 'rode blimp':'01 in location kit',
 'rycote mini windjammer':'02 in location kit',
 'rycote 65501':'01 in location kit',
-'audio at8533':'03 in location kit',
+'audio technica at8533':'03 in location kit',
 'rode vxlr':'02 in location kit',
 'mini boom mic stand':'01 in location kit',
 'rode boompole': '01 in location kit',
