@@ -1,2 +1,79 @@
-name='ben'
-name
+#This is a list of all kit held by Pinecone Sound, its quantaty, and location
+
+kit_list={
+'rode ntg2':'01 in location kit',
+'seelectronics 4400a':'01 in location kit',
+'sony ecm77b':'02 in location kit',
+'lom elektrousi':'01 in location kit',
+'luhd pm01ab':'01 in location kit',
+'tram tr50':'01 in location kit',
+'talkstar ta58':'02 in bedroom storage',
+'red5 audio rv6':'01 in bedroom storage',
+'audio technica atm350cw':'01 in location kit',
+'jrf hydrophone':'02 in location kit',
+'tascam dr40':'01 in location kit',
+'tascam dr05':'01 in loation kit',
+'zoom f4':'01 in location kit',
+'sqn 4s':'01 in office',
+'sony mdr7506':'01 in office, 01 in location kit',
+'peavey pro15':'02 in office',
+'dare audio v500':'01 in office',
+'rode blimp':'01 in location kit',
+'rycote mini windjammer':'02 in location kit',
+'rycote 65501':'01 in location kit',
+'audio at8533':'03 in location kit',
+'rode vxlr':'02 in location kit',
+'mini boom mic stand':'01 in location kit',
+'rode boompole': '01 in location kit',
+'cp cases ems':'01 in office',
+'apple imac':'01 in office',
+'maudio fast track pro':'01 in office',
+}
+
+microphones={
+'rode ntg2':'01 in location kit',
+'seelectronics 4400a':'01 in location kit',
+'sony ecm77b':'02 in location kit',
+'lom elektrousi':'01 in location kit',
+'luhd pm01ab':'01 in location kit',
+'tram tr50':'01 in location kit',
+'talkstar ta58':'02 in bedroom storage',
+'red5 audio rv6':'01 in bedroom storage',
+'audio technica atm350cw':'01 in location kit',
+'jrf hydrophone':'02 in location kit',
+}
+
+recorders={
+'tascam dr40':'01 in location kit',
+'tascam dr05':'01 in loation kit',
+'zoom f4':'01 in location kit',
+}
+
+mixers={
+'sqn 4s':'01 in office',
+}
+
+headphones_monitors={
+'sony mdr7506':'01 in office, 01 in location kit',
+'peavey pro15':'02 in office',
+}
+
+amplifyers={
+'dare audio v500':'01 in office',
+}
+
+microphone_accessores={
+'rode blimp':'01 in location kit',
+'rycote mini windjammer':'02 in location kit',
+'rycote 65501':'01 in location kit',
+'audio at8533':'03 in location kit',
+'rode vxlr':'02 in location kit',
+'mini boom mic stand':'01 in location kit',
+'rode boompole': '01 in location kit',
+}
+
+studio_accessories={
+'cp cases ems':'01 in office',
+'apple imac':'01 in office',
+'maudio fast track pro':'01 in office',
+}
