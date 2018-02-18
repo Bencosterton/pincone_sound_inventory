@@ -1,4 +1,21 @@
-#This is a list of all kit held by Pinecone Sound, its quantaty, and location.
+#imports
+import math
+import jupyter
+import time
+
+#functions
+
+def wait(amount):
+    time.sleep(amount)
+    print()
+
+#Welcome message
+
+print('Welcome to Pinecone Sound inventory check')
+wait(1)
+print('Select category: kit, microphones, recorders, mixers, headphones, monitors, amplifyers, accessories, studio.')
+
+#This is a dictionary of all kit held by Pinecone Sound, its quantity, and location.
 
 kit_list={
 'rode ntg2':'01 in location kit',
@@ -14,7 +31,7 @@ kit_list={
 'tascam dr40':'01 in location kit',
 'tascam dr05':'01 in loation kit',
 'zoom f4':'01 in location kit',
-'sqn 4s':'01 in office',
+'sqn 4s mini':'01 in office',
 'sony mdr7506':'01 in office, 01 in location kit',
 'peavey pro15':'02 in office',
 'dare audio v500':'01 in office',
@@ -50,7 +67,7 @@ recorders={
 }
 
 mixers={
-'sqn 4s':'01 in office',
+'sqn 4s mini':'01 in office',
 }
 
 headphones_monitors={
@@ -81,13 +98,20 @@ studio_accessories={
 #A list of user friendly names
 
 kit=kit_list.keys()
+kitlist=kit_list.keys()
 microphone=microphones.keys()
+microphones=microphones.keys()
 recorder=recorders.keys()
+recorders=recorders.keys()
 mixer=mixers.keys()
+mixers=mixers.keys()
 headphones=headphones_monitors.keys()
 monitors=headphones_monitors.keys()
 amplifyer=amplifyers.keys()
+amplifyers=amplifyers.keys()
 studio=studio_accessories.keys()
+accessories=microphone_accessories.keys()
+
 
 #Trying to make item search more user friendly
 
@@ -108,6 +132,7 @@ talkstar_ta58=kit_list['talkstar ta58']
 red5audiorv6=kit_list['red5 audio rv6']
 red5_audio_rv6=kit_list['red5 audio rv6']
 audiotechnicaatm350cw=kit_list['audio technica atm350cw']
+audio_technica_atm350cw=kit_list['audio technica atm350cw']
 audiotechnica_atm350cw=kit_list['audio technica atm350cw']
 jrfhydrophone=kit_list['jrf hydrophone']
 jrf_hydrophone=kit_list['jrf hydrophone']
@@ -117,8 +142,8 @@ tascamdr05=kit_list['tascam dr05']
 tascam_dr05=kit_list['tascam dr05']
 zoomf4=kit_list['zoom f4']
 zoom_f4=kit_list['zoom f4']
-sqn4smini=kit_list['sqn 4s']
-sqn_4smini=kit_list['sqn 4s']
+sqn4smini=kit_list['sqn 4s mini']
+sqn_4smini=kit_list['sqn 4s mini']
 sonymdr7506=kit_list['sony mdr7506']
 sony_mdr7506=kit_list['sony mdr7506']
 peaveypro15=kit_list['peavey pro15']
@@ -145,5 +170,3 @@ appleimac=kit_list['apple imac']
 apple_imac=kit_list['apple imac']
 maudiofasttrackpro=kit_list['maudio fast track pro']
 maudio_fast_track_pro=kit_list['maudio fast track pro']
-red5audiorv6=kit_list['red5 audio rv6']
-red5_audio_rv6=kit_list['red5 audio rv6']
